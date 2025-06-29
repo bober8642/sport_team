@@ -1,0 +1,928 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+body {
+   font-family: "Handjet", sans-serif;
+
+background-color: #14291a;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='152' height='152' viewBox='0 0 152 152'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='temple' fill='%2362a475' fill-opacity='0.23'%3E%3Cpath d='M152 150v2H0v-2h28v-8H8v-20H0v-2h8V80h42v20h20v42H30v8h90v-8H80v-42h20V80h42v40h8V30h-8v40h-42V50H80V8h40V0h2v8h20v20h8V0h2v150zm-2 0v-28h-8v20h-20v8h28zM82 30v18h18V30H82zm20 18h20v20h18V30h-20V10H82v18h20v20zm0 2v18h18V50h-18zm20-22h18V10h-18v18zm-54 92v-18H50v18h18zm-20-18H28V82H10v38h20v20h38v-18H48v-20zm0-2V82H30v18h18zm-20 22H10v18h18v-18zm54 0v18h38v-20h20V82h-18v20h-20v20H82zm18-20H82v18h18v-18zm2-2h18V82h-18v18zm20 40v-18h18v18h-18zM30 0h-2v8H8v20H0v2h8v40h42V50h20V8H30V0zm20 48h18V30H50v18zm18-20H48v20H28v20H10V30h20V10h38v18zM30 50h18v18H30V50zm-2-40H10v18h18V10z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+h1{
+    color: rgb(214, 245, 212);
+    text-align: center;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 100px;
+    width: 160px;
+    height: 50px;
+    border-top: 5px dashed #568640;
+    border-bottom: 5px dashed #568640;
+}
+
+.s{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.a{
+  border: 6px dashed #568640;
+  padding: 10px;
+  width: 580px;
+  height: 190px;
+  color:#fff899;
+  text-align: center;
+  margin-top: 70px;
+  font-size: 29px;
+  box-shadow: 0px 6px 5px 5px #000000;
+}
+.a:hover{
+  width: 500px;
+  height: 150px;
+  font-size: 25px;
+  transition: 0.4s;
+  box-shadow: 0px 2px 2px 2px #000000;
+}
+.t1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+h2{
+    color: #fff899;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.om:hover{
+  color:#2c210d;
+  background:#fff899;
+  transition: 0.7s;
+}
+.og:hover{
+  color:#2c210d;
+  background:#fff899;
+  transition: 0.7s;
+}
+.os:hover{
+  color:#2c210d;
+  background:#fff899;
+  transition: 0.7s;
+}
+
+.os{
+  text-decoration: none;
+  background-color: #2c210d;
+  color: #fff899;
+  position: fixed;
+    top:500px;
+    right: -30px;
+    padding: 10px;
+    margin: 20px;
+    width: 80px;
+    height: 25px;
+    padding-top:5px ;
+    text-align: center;
+    display: flex;
+border-top: 2px solid #fff899;
+font-size: 16px;
+}
+.og{
+  text-decoration: none;
+  background-color: #2c210d;
+  color: #fff899;
+  position: fixed;
+    top:460px;
+    right: -30px;
+    padding:10px;
+    margin: 20px;
+    width: 80px;
+    height: 25px;
+    padding-top:5px ;
+    text-align: center;
+   
+}
+.om{
+  text-decoration: none;
+  background-color: #2c210d;
+  color: #fff899;
+  position: fixed;
+    top:420px;
+    right: -30px;
+    padding: 10px;
+    margin: 20px;
+    width: 80px;
+    height: 25px;
+    padding-top:5px ;
+    text-align:center;
+    border-right:20px ;
+    border-bottom: 2px solid #fff899;
+}
+.p1{
+  margin-left:200px; 
+}
+
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.ta{
+  color:#e3f1fd;
+text-align: start;
+width: 130px;
+height: 80px;
+border-top:3px solid #022a4b ;
+ border-bottom: 3px solid #022a4b;
+  padding-bottom: 26px;
+  opacity: 0;
+}
+.p1:hover{
+opacity: 1;
+}
+.line5{
+  background-color: #271c67;
+  width: 100%;
+  height: 10px;
+  box-shadow: 0px 24px 20px 21px #5538f5;
+  margin-bottom: 5px;
+}
+
+h3{
+    border-left: 3px solid #271c67;
+    border-right: 3px solid #271c67;
+    padding: 6px;
+
+}
+.m{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.r1{
+  background-image: url(https://learn.logikaschool.com/uploads/student/4958692/684d2f4a86960.jpg);
+width:100px;
+height: 520px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color:#d4b8fe;
+    border-left: 4px solid #271c67;
+    border-right: 4px solid #271c67;
+    font-size: 20px;
+}
+.w1{
+margin-right: 400px;
+font-size: 45px;
+color: #1d1455;
+}
+.r2{
+  background-image: url(https://learn.logikaschool.com/uploads/student/4958692/684d2fddc752c.jpg);
+width:100px;
+height: 520px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color: #d4b8fe;
+    border-left: 4px solid #271c67;
+    border-right: 4px solid #271c67;
+    font-size: 20px;
+}
+.w2{
+margin-right: 400px;
+font-size: 45px;
+color: #1d1455;
+visibility: hidden;
+}
+.r3{
+  background-image: url(https://learn.logikaschool.com/uploads/student/4958692/684d307363ced.jpg);
+width:100px;
+height: 520px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color: #d4b8fe;
+    border-left: 4px solid #271c67;
+    border-right: 4px solid #271c67;
+    font-size: 20px;
+}
+.w3{
+margin-right: 400px;
+font-size: 45px;
+color: #1d1455;
+}
+.r4{
+  background-image: url(https://learn.logikaschool.com/uploads/student/4958692/684f06dc8b4db.webp);
+width:100px;
+height: 520px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color: #d4b8fe;
+    border-left: 4px solid #271c67;
+    border-right: 4px solid #271c67;
+    font-size: 20px;
+}
+.w4{
+margin-right: 400px;
+font-size: 45px;
+color: #1d1455;
+}
+.r6{
+  background-image: url(https://learn.logikaschool.com/uploads/student/4958692/684f07cc427c7.webp);
+width:100px;
+height: 520px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color: #d4b8fe;
+    border-left: 4px solid #271c67;
+    border-right: 4px solid #271c67;
+    font-size: 20px;
+}
+.w6{
+margin-right: 400px;
+font-size: 45px;
+color: #1d1455;
+}
+.line6{
+  background-color: #271c67;
+  width: 100%;
+  height: 10px;
+  box-shadow: 0px -11px 20px 21px #5538f5;
+  margin-top: 5px;
+}
+.r5{
+  background-image: url(https://learn.logikaschool.com/uploads/student/4958692/684d31d2f064e.webp);
+width:100px;
+height: 520px; 
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color: #d4b8fe;
+    border-right: 4px solid #271c67;
+    border-left: 4px solid #271c67;
+    font-size: 20px;
+}
+.w5{
+margin-right: 400px;
+font-size: 45px;
+color: #1d1455;
+}
+ 
+ 
+
+.r1:hover{
+width: 860px;
+border-left: 3px solid #271c67;
+    border-right: 3px solid #271c67;
+    transition: 0.7s;
+}
+.r2:hover{
+width: 860px;
+border-left: 3px solid #271c67;
+    border-right: 3px solid #271c67;
+    transition: 0.7s;
+}
+.r6:hover{
+width: 860px;
+border-right: 3px solid #271c67;
+    border-left: 3px solid #271c67;
+    transition: 0.7s;
+}
+.r3:hover{
+width: 860px;
+border-left: 3px solid #271c67;
+    border-right: 3px solid #271c67;
+    transition: 0.7s;
+}
+.r4:hover{
+width: 860px;
+border-left: 3px solid #271c67;
+    border-right: 3px solid #271c67;
+    transition: 0.7s;
+}
+.r5:hover{
+width: 860px;
+border-left: 3px solid #271c67;
+    border-right: 3px solid #271c67;
+    transition: 0.7s;
+    
+}
+.region{
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.g{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #271c67;
+  color: #d4b8fe;
+}
+.g p:hover{
+  transition: 0.9s;
+  color:#ea5bec;
+  font-size: 19px;
+}
+
+
+
+
+
+
+
+.i1 {
+    width: 330px;
+  height: 430px;
+cursor: pointer;
+border-radius: 7px;
+padding-bottom: 20px;
+}
+
+.p1 {
+  margin-left: 300px;
+  margin-bottom: 80px;
+}
+
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.ta {
+   color: #e3f1fd;
+  text-align: start;
+  width: 220px;
+  
+  border-top: 3px solid #8cf21f;
+  border-bottom: 3px solid #8fef2a;
+  margin-left: 60px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+      font-size: 12px;
+      padding-bottom: 50px;
+}
+.i1:hover + .ta {
+      transform: scale(1.4);
+      opacity: 1;
+      transition: 1s;
+    }
+
+
+
+
+
+
+
+
+
+
+.i8 {
+  width: 330px;
+  height: 430px;
+cursor: pointer;
+border-radius: 7px;
+padding-bottom: 20px;
+
+}
+
+.p2 {
+margin-left: 1000px;
+  margin-bottom: 80px;
+}
+
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.tb {
+   color: #e3f1fd;
+  text-align: start;
+  width: 220px;
+  
+  border-top: 3px solid #8cf21f;
+  border-bottom: 3px solid #8fef2a;
+  margin-left: 60px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+      font-size: 12px;
+}
+
+.i8:hover + .tb {
+      transform: scale(1.4);
+      opacity: 1;
+      transition: 1s;
+    }
+
+
+
+
+
+
+
+
+.i2 {
+  width: 330px;
+  height: 470px;
+cursor: pointer;
+border-radius: 7px;
+padding-bottom: 20px;
+
+}
+
+.p3 {
+   margin-left: 300px;
+  margin-bottom: 80px;
+}
+
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.tc {
+   color: #e3f1fd;
+  text-align: start;
+  width: 220px;
+  
+  border-top: 3px solid #8cf21f;
+  border-bottom: 3px solid #8fef2a;
+  margin-left: 60px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+      font-size: 13px;
+  
+}
+
+.i2:hover + .tc {
+      transform: scale(1.4);
+      opacity: 1;
+      transition: 1s;
+    }
+
+
+
+
+
+
+
+
+
+
+.i3 {
+  width: 330px;
+  height: 440px;
+cursor: pointer;
+border-radius: 7px;
+padding-bottom: 20px;
+}
+.p4{
+ margin-left: 1000px;
+  margin-bottom: 80px; 
+}
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.td {
+  color: #e3f1fd;
+  text-align: start;
+  width: 220px;
+  
+  border-top: 3px solid #8cf21f;
+  border-bottom: 3px solid #8fef2a;
+  margin-left: 60px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+      font-size: 12px;
+      
+}
+
+.i3:hover + .td {
+      transform: scale(1.4);
+      opacity: 1;
+      transition: 1s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.i4 {
+   width: 330px;
+  height: 450px;
+cursor: pointer;
+border-radius: 7px;
+padding-bottom: 20px;
+
+}
+
+.p5 {
+  margin-left: 300px;
+  margin-bottom: 80px;
+}
+
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.te {
+   color: #e3f1fd;
+  text-align: start;
+  width: 220px;
+  
+  border-top: 3px solid #8cf21f;
+  border-bottom: 3px solid #8fef2a;
+  margin-left: 60px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+      font-size: 12px;
+      
+}
+
+.i4:hover + .te{
+      transform: scale(1.4);
+      opacity: 1;
+      transition: 1s;
+    }
+
+
+
+
+
+
+
+
+.i5 {
+   width: 330px;
+  height: 400px;
+cursor: pointer;
+border-radius: 7px;
+padding-bottom: 20px;
+
+}
+
+.p6 {
+  margin-left: 1000px;
+  margin-bottom: 80px; 
+}
+
+
+/*Подивитись як зробити при наведенні на картинку показується текст*/
+.tf {
+   color: #e3f1fd;
+  text-align: start;
+  width: 220px;
+  
+  border-top: 3px solid #8cf21f;
+  border-bottom: 3px solid #8fef2a;
+  margin-left: 60px;
+      transition: transform 0.3s ease;
+      opacity: 0;
+      font-size: 12px;
+      
+}
+
+.i5:hover + .tf {
+      transform: scale(1.4);
+      opacity: 1;
+      transition: 1s;
+    }
+
+
+.s1 {
+  background-color: #3b17be;
+  border: 1px solid #3b17be;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 27px 30px #3b17be;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+
+.abv {
+  display: flex;
+  flex-direction: row;
+}
+
+.s2 {
+  background-color: #ffb049;
+  border: 1px solid #ffb049;
+  border-radius: 300px;
+  width: 3px;
+  height: 3px;
+  box-shadow: 0px 0px 20px 20px #ffb049;
+  margin-left: 160px;
+}
+
+.s3 {
+  background-color: #ffb049;
+  border: 1px solid #ffb049;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 27px 30px #ffb049;
+  margin-left: 220px;
+  margin-top: 60px;
+}
+
+.s4 {
+  background-color: #7c725b;
+  border: 1px solid #7c725b;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 20px 20px #7c725b;
+  margin-right: 100px;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+.s5 {
+  background-color: #7c725b;
+  border: 1px solid #7c725b;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 32px 35px #7c725b;
+  margin-right: 400px;
+  margin-top: 110px;
+}
+
+.abz {
+  display: flex;
+  flex-direction: row;
+}
+
+.s6 {
+  background-color: #072e68;
+  border: 1px solid #072e68;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 29px 30px #072e68;
+  margin-left: 220px;
+  margin-top: 60px;
+}
+
+.s7 {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 32px 35px #ffffff;
+  margin-left: 300px;
+  margin-top: 110px;
+
+}
+
+.s8 {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 300px;
+  width: 4px;
+  height: 4px;
+  box-shadow: 0px 0px 19px 20px #ffffff;
+  margin-right: 400px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.abw {
+  display: flex;
+  flex-direction: row;
+}
+
+.s9 {
+  background-color: #940000;
+  border: 1px solid #940000;
+  border-radius: 300px;
+  width: 35px;
+  height: 35px;
+  box-shadow: 0px 0px 27px 30px #940000;
+  margin-left: 220px;
+  margin-top:60px;
+}
+h3{
+    color: #fff899;
+    font-size: 48px;
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+.n1{
+background-image: url(https://learn.logikaschool.com/uploads/student/4958692/6854f75b92cb9.jpg);
+width:200px;
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color:#e4dd7e;
+    border: 4px dashed #568640;
+    
+    border-radius: 3px;
+    font-size: 10px;
+}
+.i{
+background-image: url(https://learn.logikaschool.com/uploads/student/4958692/6854f7fdca467.jpg);
+width:200px;
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items:center;
+    justify-content: center;
+    color:#fff899;
+    border: 4px dashed #568640;
+    font-size: 10px;
+    border-radius: 3px;
+}
+.e{
+ background-image: url(https://learn.logikaschool.com/uploads/student/4958692/6854f90281f67.jpg);
+width:200px;
+height: 200px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+    justify-content: center;
+    color:#fff899;
+    border: 4px dashed #568640;
+    font-size: 10px;
+    border-radius: 3px; 
+}
+.world{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.n1:hover{
+margin-top: 20px;
+transition: 0.9s;
+width: 320px; 
+height: 300px;
+color: #3f3a2d;
+font-size: 20px;
+}
+.i:hover{
+margin-top: 20px;
+transition: 0.9s;
+width: 320px; 
+height: 300px;
+color: #460f0f;
+font-size: 20px;
+}
+.e:hover{
+margin-top: 20px;
+transition: 0.9s;
+width: 320px; 
+height: 300px;
+color: #d47ffc;
+font-size: 20px;
+
+}
+.w{
+  font-size: 20px;
+  margin:10px;
+}
+.d{
+  font-size: 20px;
+  margin:10px;
+}
+.b{
+  font-size: 20px;
+  margin:10px;
+}
+.sd{
+  margin-top: 200px;
+  margin-bottom: 60px;
+
+}
+h4{
+  color: aliceblue;
+  border-top:4px dashed #fff899;
+  border-bottom:4px dashed #fff899;
+  display:flex ;
+  justify-content: center;
+  font-size: 30px;
+  padding: 7px;
+  box-shadow: 0px 5px 5px 5px #020c00;
+  background-color: #14291a;
+  margin-bottom: 80px;
+}
+.x{
+  border: 14px solid #150f04;
+  border-radius: 5px;
+  width: 230px;
+  height: 230px;
+}
+.v{
+ border: 14px solid #150f04;
+  border-radius: 5px;
+  width: 230px;
+  height: 230px; 
+}
+.n{
+   border: 14px solid #150f04;
+  border-radius: 5px;
+  width: 230px;
+  height: 230px; 
+}
+.j{
+  display: flex;
+  justify-content: space-around;
+background-color: #051309;
+  border-radius: 5px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 200px;
+}
+.x:hover{
+  border: 20px solid #3a2a0c;
+  border-radius: 5px;
+  width: 230px;
+  height: 230px;
+  transition: 0.7s;
+  box-shadow:0px 0px 8px 8px #ffea60;
+}
+.v:hover{
+ border: 20px solid #3a2a0c;
+  border-radius: 5px;
+  width: 230px;
+  height: 230px;
+   transition: 0.7s;
+   box-shadow:0px 0px 8px 8px #ffea60;
+}
+.n:hover{
+   border: 20px solid #3a2a0c;
+  border-radius: 5px;
+  width: 239px;
+  height: 239px; 
+  transition: 0.7s;
+  box-shadow:0px 0px 8px 8px #ffea60;
+}
+.t2{
+  margin-top: 90px;
+  font-size:30px;
+  display: flex;
+  justify-content: center;
+}
+.b2{
+  background-color:#14291a;
+  color:#ffea60;
+  border-radius: 5px;
+}
+tr{
+ background-color:#14291a;
+  color:#ffea60;
+  border-radius: 5px;
+}
+.d1{
+  background-color:#ffea60;
+  color:#14291a;
+  border:2px solid #568640;
+  border-radius: 5px;
+}
+td{
+ border:2px solid #568640; 
+ padding: 4px;
+ border-radius: 5px;
+}
+h5{
+  color: #ffea60;
+  border-top:4px solid #568640;
+  border-bottom:4px solid #568640;
+  display:flex ;
+  justify-content: center;
+  font-size: 30px;
+  padding: 7px;
+  box-shadow: 0px 5px 7px 5px #051309;
+  background-color: #14291a;
+  margin-bottom: 80px;
+}
+.gh{
+  background-color: #051309;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 300px;
+}

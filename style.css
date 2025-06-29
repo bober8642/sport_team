@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    font-family: "Press Start 2P", system-ui;
+    
+    background-image:linear-gradient( #C90000, #D9361E, #FB440C,#C83E10,#F9B21A);
+    border-left: 4px solid #2C0707;
+border-right: 4px solid #2C0707;
+margin-left: 100px;
+margin-right: 100px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.i1{
+width:180px;
+height:180px;
+border: 10px solid #2C0707;
+border-radius: 120px;
+
+}
+.i2{
+width:250px;
+height:250px;
+border: 10px solid #2C0707;
+border-radius: 300px;
+
+}
+.i3{
+width:180px;
+height:180px;
+border: 10px solid #2C0707;
+border-radius: 120px;
+}
+.logo{
+  width: 90px;
+    height: 90px;  
+}
+h1{
+ justify-content: center;
+ display: flex;
+ margin-bottom:80px;
+}
+header{
+  border-bottom: 3px solid #2C0707;
+  padding-bottom: 40px;
+}
+.is{
+  justify-content: space-between;
+  display: flex;
+}
+.t1{
+background-color:#2C0707 ;
+border:4px solid #2C0707;
+border-radius: 20px;
+width: 400px;
+height: 200px;
+font-size: 12px;
+padding: 6px;
+color:antiquewhite;
+margin-left: 10px;
+display: flex;
+}
+.s{
+margin-bottom: 120px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.k{
+
+}
+.i4{
+  width:160px;
+  height:180px;
+  border-radius: 20px;
+}
+.a1{
+  text-decoration: none;
+  color:antiquewhite;
+margin-bottom:2px;
+}
+.aa{
+  background-color: #2C0707;
+  width: 160px;
+  height:200px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.k{
+  margin-top: 60px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+.as{
+  padding:30px;
+}
+.i5{
+  width:160px;
+  height:180px;
+  border-radius: 20px;
+}
+.ab{
+  background-color: #2C0707;
+  width: 160px;
+  height:200px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.a2{
+  text-decoration: none;
+  color:antiquewhite;
+font-size:10px;
+
+}
+.as{
+  padding:30px;
+}
+.i6{
+  width:160px;
+  height:180px;
+  border-radius: 20px;
+}
+.ac{
+  background-color: #2C0707;
+  width: 160px;
+  height:200px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.a3{
+  text-decoration: none;
+  color:antiquewhite;
+font-size:14px;
+}
+.circle-1{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.circle-2{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+margin-top: 180px;
+}
+.circle-3{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.circle-4{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.circle-5{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 170px;
+}
+.pr{
+  flex-direction: row;
+  display: flex;
+}
+.circle-6{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.circle-7{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 790px;
+}
+h2{
+ justify-content: center;
+ display: flex;
+ margin-bottom:40px;
+}
+.round{
+  background-color: #2C0707;
+  border: 5px solid #2C0707;
+  border-radius: 200px;
+  color: antiquewhite;
+  font-size: 25px;
+  padding: 20px;
+  
+}
+.circle-8{
+border: 10px solid wheat;
+    border-radius: 40px;
+    width: 40px;
+    height: 6px;
+    background-color: wheat;
+    margin-left: 570px;
+}
+.circle-9{
+border: 10px solid #2C0707;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+.aa:hover{
+  border:13px solid #681616;
+  background-color: #681616;
+  transition: 0.5s;
+}
+.ab:hover{
+  border:13px solid #681616;
+  background-color: #681616;
+  transition: 0.5s;
+}
+.ac:hover{
+  border:13px solid #681616;
+  background-color: #681616;
+  transition: 0.5s;
+}
+.i1:hover{
+border:14px solid #2C0707;
+  transition: 0.5s;
+  box-shadow:10px 15px 10px 8px #A10E01;
+}
+.i2:hover{
+border:14px solid #2C0707;
+  transition: 0.5s;
+  box-shadow:10px 15px 10px 8px #A10E01;
+}
+.i3:hover{
+border:14px solid #2C0707;
+  transition: 0.5s;
+  box-shadow:10px 15px 10px 8px #A10E01;
+}
+footer li:hover{
+  transition: 0.5s;
+  margin-left: 18px;
+  color: #ffdf9e;
+}
